@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <form action="dashbord.html" target="_blank" onsubmit="return envoi()">
+
+      <p><label for="pseudo">   Pseudo :</label>
+        <input placeholder="Ex: totodu85" type="text" name="pseudo" id="pseudo" required autofocus/>
+      </p>
+
+      <p><label for="mdp">Password :  </label>
+        <input type="password" name="mdp" id="mdp" required />
+      </p>
+
+      <div class="submit">
+        <p>
+          <input type="submit" value="Connexion" />
+        </p>
+      </div>
+
+      <p>
+        <input type="checkbox" name="souvenir" id="souvenir" checked/>
+        <label for="souvenir">Remember me</label>
+      </p>
+
+      <p><a href="mdp_oublie.html" target="_blank"><em>Don't remember password ?</em></a></p>
+
+      <p><a href="#register"><em>No account yet ?</em></a></p>
+
+    </form>
+
+    <script src="script.js">
+
+    </script>
+
+  </body>
+</html>
